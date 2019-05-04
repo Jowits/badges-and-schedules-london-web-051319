@@ -1,4 +1,7 @@
 # Write your code here.
 batch_badge_creator(name)
-  puts "Hello, my name is #{name}."
+name.each do |names|
+puts "Hello, my name is #{name}."
+name += 1
+
 end
